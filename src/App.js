@@ -79,6 +79,7 @@ class App extends Component {
 		const formAdd = <Modal />;
 		return (
 	 		<div className=''>
+	 			<div>hello github</div>
 	 			<div className='btn btn-primary mt-2 ml-2 font-weight-bold' onClick={this.openForm}><b>+ </b>ADD NEW JOB</div>
 	 			<Search handleSearch={this.handleSearch}/>
 	 			<div className='row mt-3 mx-2'>
